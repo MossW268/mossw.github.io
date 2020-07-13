@@ -5,7 +5,16 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-<script src="seperate.js"></script>
+<script>
+function seperate() {
+  var x = document.getElementById("imageToSeperate");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 <div class="big-image" id="imageToSeperate">
 <div class="big-text">
 <h1>Hey there, I'm MossW!</h1>
