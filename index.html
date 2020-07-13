@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>MossW's Website</title>
+<title>Welcome to my website!</title>
 </head>
 <body>
-<h1>MossW's Website!</h1>
-<button onclick="$.ajax({type: "PUT",url: "https://scratch.mit.edu/site-api/users/followers/MossW/add/",data: {usernames: Scratch.INIT_DATA.LOGGED_IN_USER.model.username}})">Click me to follow MossW!</button>
+<script src="seperate.js"></script>
+<div class="big-image" id="imageToSeperate">
+<div class="big-text">
+<h1>Hey there, I'm MossW!</h1>
+<p>I'm just a random guy who programs whatever the heck he wants.</p>
+<button onclick="split()">See More</button>
+</div>
+</div>
 </body>
 </html>
